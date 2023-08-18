@@ -30,7 +30,7 @@ namespace AntiVPN
                         {
                             if (!ipInfo.Proxy && !ipInfo.Hosting)
                             {
-                                player.svPlayer.SendGameMessage("〔<color=#546eff>Anti-VPN</color>〕 | You will be kicked for using VPN!");
+                                player.svPlayer.SendGameMessage("〔<color=#546eff>Anti-VPN</color>〕 | You will be kicked for using vpn!");
                                 await Task.Delay(3000);
                                 player.svPlayer.svManager.Disconnect(player.svPlayer.connection, DisconnectTypes.Kicked);
                             }
